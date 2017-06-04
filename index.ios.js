@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import App from './app/index';
 import {
   AppRegistry,
   StyleSheet,
@@ -50,4 +51,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('YFRNApp', () => YFRNApp);
+AppRegistry.registerComponent('YFRNApp', () => App);
